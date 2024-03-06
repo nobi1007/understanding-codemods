@@ -8,19 +8,19 @@
 
 ### Run codemods
 
-1. No comment blocks
+1. No comment blocks - Remove all comments from the files
 
 ```bash
 jscodeshift -t transformers/remove-comments.js index.js
 ```
 
-2. Adopt arrow functions
+2. Adopt arrow functions  - Replace all function definitions with arrow functions
 
 ```bash
 jscodeshift -t transformers/to-arrow-functions.js index.js
 ```
 
-3. Replace require statements
+3. Replace require statements - Replace all “require” imports with es6 “import” statements
 
 ```bash
 jscodeshift -t transformers/to-es6-imports.js index.js
