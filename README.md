@@ -29,4 +29,5 @@ jscodeshift -t transformers/to-es6-imports.js index.js
 ### Resources
 1. [jscodeshift](https://github.com/facebook/jscodeshift)
 2. [AST examples gist](https://astexplorer.net/#/gist/89b5d7a5e4873841b7eaf39fdb33ba9d/f778f6157509d2565da97e7eafe6a427a4a36516)
+3. [Slides - Should we care about CodeMods?](https://docs.google.com/presentation/d/1JXCEucKMg78p4Phcs8al9P2Qke37a8lEhvY7KxiF1lo/edit?usp=sharing)
    
